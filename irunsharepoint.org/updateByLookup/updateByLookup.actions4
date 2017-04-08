@@ -1,0 +1,20 @@
+﻿<Action Name="updateByLookup" ClassName="irunsharepoint.org.updateByLookup" Category="Custom" AppliesTo="all">
+  <RuleDesigner Sentence="Update list items field by lookup">
+    <FieldBind Field="ServiceUrl" Text="Service Url" Id="0" ></FieldBind>
+    <FieldBind Field="SiteUrl" Text="Site Url" Id="1" ></FieldBind>
+    <FieldBind Field="ListName" Text="List name" Id="2" ></FieldBind>
+    <FieldBind Field="QuerylookUpField" Text="Internal Lookup field" Id="3" ></FieldBind>
+    <FieldBind Field="QuerylookupValueID" Text="Lookup parent id" Id="4" ></FieldBind>
+    <FieldBind Field="FieldToUpdate" Text="Internal field to update" Id="5" ></FieldBind>
+    <FieldBind Field="FieldValue" Text="Value to update" Id="6" ></FieldBind>
+  </RuleDesigner>
+  <Parameters>
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="ServiceUrl"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="SiteUrl"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="ListName"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="QuerylookUpField"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="QuerylookupValueID"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="FieldToUpdate"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="FieldValue"  />
+  </Parameters>
+</Action>

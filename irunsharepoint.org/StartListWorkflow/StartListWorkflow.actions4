@@ -1,0 +1,16 @@
+﻿<Action Name="StartListWorkflow" ClassName="irunsharepoint.org.StartListWorkflow" Category="Custom" AppliesTo="all">
+  <RuleDesigner Sentence="Start a SharePoint 2013 Workflow List Item">
+    <FieldBind Field="itemID" Text="Service Url" Id="0" ></FieldBind>
+    <FieldBind Field="siteUrl" Text="Site Url" Id="1" ></FieldBind>
+    <FieldBind Field="workflowName" Text="Workflow List Name" Id="2" ></FieldBind>
+    <FieldBind Field="itemID" Text="item ID" Id="3" ></FieldBind>
+    <FieldBind Field="initiationData" Text="JSON initiation Data" Id="4" ></FieldBind>
+  </RuleDesigner>
+  <Parameters>
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="serviceUrl"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="siteUrl"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="workflowName"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="itemID"  />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="initiationData"  />
+  </Parameters>
+</Action>
